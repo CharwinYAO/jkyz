@@ -1,7 +1,7 @@
 # 健康驿站抢票
 semi-automated ticket robing system for jiankangyizhan
 
-· 半自动化的抢票系统
+· 半自动化的抢票系统/n
 · 设置时间，到点加载预约时间页面。
 · 检测到有橙色可预约日期时，自动载入。（默认从第7天检测到第2天）
 · 检测到确认预约界面时，自动打开验证码。
