@@ -15,13 +15,11 @@ class JKYZ_cheat:
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-automation'])
         options.add_argument('--disable-blink-features=AutomationControlled')
-        #options.add_argument('--user-data-dir=E:/Program/project/健康驿站自动抢票系统/sechromepro/')
+        #options.add_argument('--user-data-dir=')
         # 需要修改对应browser drive的路径
         self.browser = webdriver.Chrome("C:/Program Files/Google/Chrome/Application/chromedriver.exe", options=options)
         self.user = username
         self.passw = password
-        # self.cookies = [{"name": "_trs_uv", "value": "l0153m1q_850_j476", "domain":".sz.gov.cn"},
-        #                {"name": "isolate-web-session-id", "value": "6ca43f49-6006-4a5b-aae7-10c8aee437fd"}]
 
     def login_from_cookie(self):
         #根据cookie信息登陆，一般不用
@@ -202,7 +200,7 @@ brow_user1.login()
 #brow_user1.login_from_cookie()
 time.sleep(3)
 #如果网络好，可以尝试准点入，注意更新系统时间，这个是通过主机上的时间来判断的。
-brow_user1.QiangPiao(QP_time="10:00:01")  #这一行之前的代码可以在10点前执行
+brow_user1.QiangPiao(QP_time="10:00:01")  
 
 
 
