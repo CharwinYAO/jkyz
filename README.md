@@ -30,6 +30,7 @@ ddddocr 1.4.3
 
 cv2 4.5
 
+chromedriver
 
 
 
